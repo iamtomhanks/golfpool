@@ -1,0 +1,51 @@
+.hamburger {
+  font-size: 5rem;
+  width: 10%;
+  line-height: 7rem;
+  float: right;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  color: #f1f1f1;
+
+
+  -moz-transition: all .1s ease-in;
+  -o-transition: all .1s ease-in;
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+}
+
+.hamburgerMenu {
+  width: 20%;
+  position: fixed;
+  right: -25%;
+  padding-top: 7rem;
+  background: #f1f1f1;
+
+  -webkit-box-shadow: -12px 12px 43px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: -12px 12px 43px -8px rgba(0,0,0,0.75);
+  box-shadow: -12px 12px 43px -8px rgba(0,0,0,0.75);
+}
+.hamburgerMenuItem{
+  display: block;
+  margin: 2rem 0;
+  font-size: 2rem;
+  height: 4rem;
+  line-height: 4rem;
+  cursor: pointer;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: right;
+  float:right;
+  padding-right: 10%;
+  width: 90%;
+
+
+  -moz-transition: all .1s ease-in;
+   -o-transition: all .1s ease-in;
+   -webkit-transition: all .1s ease-in;
+   transition: all .1s ease-in;
+}
+.hamburgerMenuItem:hover{
+  background: #333333;
+  color: #f1f1f1;
+}
